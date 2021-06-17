@@ -1,0 +1,53 @@
+body{
+	background-color: rgb(43, 48, 58);
+	box-sizing: border-box;
+}
+
+#imgbox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 70%;
+	height: 500px;
+	background-color: rgba(29, 30, 24);
+	border-radius: 10px;
+	border:15px solid rgb(124, 124, 124);
+	box-shadow: 5px 5px 10px rgb(9, 8, 9);
+	padding: 0px;
+}
+
+#img{
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/img1.jpeg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+button{
+	position: absolute;
+	top: 50%;
+	background-color: rgb(124, 124, 124);
+	height: 40px;
+	width: 60px;
+	border:0;
+}
+span {	
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-family: helvetica;
+}
+
+#left{		
+	transform: translate(-50%,-50%);
+	left: 16%;	
+}
+
+#right{
+	transform: translate(-50%,-50%);	
+	left: 84%;
+}

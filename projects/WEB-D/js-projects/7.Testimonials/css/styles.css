@@ -1,0 +1,172 @@
+body{
+	background-image: url('../images/bgimg.jpeg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#box{
+	height: 763px;
+	width: 100%;
+	background-color: rgba(0,0,0,.4);
+}
+
+.container , .row{
+	height:763px;
+}
+
+#outerbox{
+	width: 100%;
+	height: 763px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#mainbox{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(0,0,0,.6);
+	border-radius: 20px;
+	width: 80%;
+}
+
+#heading{
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	margin: 15px;
+}
+#heading h4{
+	color: #f0e100;
+}
+
+#heading h2 , #cus-name{
+	font-weight: bold;
+	font-size: 45px;
+	color: #fefae0;
+	margin:auto;
+	text-transform: uppercase;
+}
+
+hr{
+	border:1px solid #e1bc29;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	width: 80%;
+}
+
+#cus-img{
+	border-radius: 50%;
+	height: 100px;
+	width: 150px;
+	background-image: url('../images/customer1.jpeg');
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+	margin: auto;
+
+}
+
+#cus-name{
+	font-size: 30px;
+	font-family: Inter, sans-serif;
+	font-weight: normal;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+.star-icon{
+	color: #f0e100;
+	margin-bottom: 15px;
+}
+
+#writebox{
+	color: #fefae0;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 20px;
+
+}
+
+#quote-left{
+	color: #f0e100;
+	font-size: 30px;
+}
+#left , #right{
+	background-color: #f0e100;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	text-align: center;
+}
+
+#left{
+		left: 22.3%;
+}
+
+#right{
+	right: 22.3%;
+}
+
+#rbutton , #lbutton{
+	padding-top: 8px;
+	font-size: 30px;
+}
+
+#lbutton{
+	padding-right: 3px;
+}
+
+#rbutton{
+	padding-left: 3px;
+}
+
+#footer{
+	color: #fefae0;
+	width: 100%;
+	background-color: rgba(0,0,0,.6);
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 20px;
+	position: absolute;
+	top: 96%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#copy{
+	color: #f0e100;
+}
+
+/*************** for medium devices *****/
+@media (max-width: 992px) and (min-width: 768px ){
+
+	}
+
+@media (max-width: 767px) and (min-width: 576px){
+
+}
+
+/********* for xtra-smaller devices *****/
+
+@media (max-width: 575px){
+		#left{
+			left: 6%;
+		}
+
+		#right{
+			right: 6%;
+		}
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CHange background color</title>
+    <script type="text/javascript" src="changebg.js"></script>
+    <style type="text/css">
+    	#cbc{
+    		background-color:white;
+    		height: 763px;
+    		width: 100%;
+    		margin: 0;
+    	}
+        #div2{
+            position: fixed;
+            top: 40%;
+            left: 45%;  
+        }
+
+        #hex-c{
+            color: black;
+            line-height: 20px;
+            font-family: helvetica;
+        }
+
+    	#cbc #div2 #clickme{
+    		
+            color: grey;
+    		height: 40px;
+            font-size: 17px;
+    		width: 150px;
+    		border-radius: 5px;
+            background: transparent;
+            border:.5px solid grey;
+            padding:5px 5px;
+    	}
+    </style>
+</head>
+<body id="cbc">
+	
+		<div id="div2">
+            <div id="hex-c">HEX-CODE:</div>
+			<button id="clickme" onclick="changebg()">Click-Me!</button>
+		</div>
+
+
+</body>
+</html>

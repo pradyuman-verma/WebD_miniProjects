@@ -1,0 +1,52 @@
+*{
+	box-sizing: content-box;
+}
+body{
+	background-color: #95B8D1;
+}
+h2{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+.max-height {
+    min-height: 100vh;
+}
+.row{
+	position: relative;
+}
+#box{
+	background-color: white;
+	align-content: center;
+	margin: auto;
+	width: 60%;
+}
+
+input{
+	height: 30px;
+	width: 80%;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: .5px;
+	border-color: grey;
+	padding-left:10px;
+}
+
+button{
+	border:0px;
+	border-radius: 5px;
+	width: 80px;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #95B8D1;
+	margin-bottom: 10px;
+	color: white;
+
+}
+
+#inbox{
+	color:#95B8D1;
+}

@@ -1,0 +1,119 @@
+/** general style**/
+*{
+	box-sizing: border-box;
+}
+body{
+	background-image:url('../images/forest.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#row-div{
+	margin:auto;
+
+}
+
+#counter-box{
+	background-color:rgba(47,79,79,.5);
+	width: 30%;
+	height:400px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	border-radius: 4px;
+  	box-shadow:0px 3px 3px #202020;
+  	overflow: hidden;
+}
+
+h1{
+	font-family: "Courier New";
+	color: #e0e0e0;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+#num{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:rgba(85,107,47,.3) /*rgba(255,255,255,.3);*/;
+	width: 80%;
+	height: 250px;
+
+}
+
+button{
+	color:#e0e0e0;
+	text-transform: capitalize;
+	font-family: "Courier New";
+	width: 120px;
+	position: absolute;
+	top: 85%;
+	height: 40px;
+	background-color: rgba(85,107,47,.8);
+	border-radius: 5px;
+	border-width: 0px;
+}
+#add-count{
+	right: 20px;
+}
+
+#lower-count{
+	left: 20px;
+}
+
+h2{
+   text-align: center;
+   font-size: 200px;
+   color: #e0e0e0;
+   opacity: .9;
+}
+/*************** for medium devices *****/
+@media (max-width: 992px) and (min-width: 768px ){
+	body{
+		background-image:url('../images/forest_md.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	#counter-box{
+		width: 50%;
+	}
+}
+
+/******** for small device ******/
+
+@media (max-width: 767px) and (min-width: 576px){
+	body{
+		background-image:url('../images/forest_sm.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	#counter-box{
+		width: 70%;
+	}
+}
+
+/********* for xtra-smaller devices *****/
+
+@media (max-width: 575px){
+	body{
+		background-image:url('../images/forest_xs.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	#counter-box{
+		width: 90%;
+	}
+}

@@ -1,0 +1,394 @@
+body{
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	background-color: #fff;
+	color: #242C42;
+}
+
+/********** header starts ************/
+
+#header-nav{
+	background: transparent;
+	border-radius: 0;
+	border:0;
+	box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+	height: 100px;
+}
+
+#container-fluid1{
+	vertical-align: middle;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#logo-img{
+}
+
+#brand-name{
+	font-family: 'Cinzel Decorative', cursive;
+	vertical-align: middle;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(0px, -50%);
+    text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 0px; 	
+}
+
+#brand-name a:hover , #brand-name a:focus{
+	text-decoration: none;
+}
+/******* hidden button for small devices *******/
+#button1 {
+  position:absolute;
+  z-index: 2;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  vertical-align: middle;
+  width: 27px;
+  height:22px;
+  background-color: transparent;
+  border-radius: 0px;
+  border:0;
+}
+#button1 span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background-color: #fefae0;
+  padding-bottom:1px;
+  margin-bottom: 1px;
+}
+#button1 span:nth-of-type(1) {
+  top: 0;
+}
+#button1 span:nth-of-type(2) {
+  top: 10px;
+}
+#button1 span:nth-of-type(3) {
+  bottom: 0;
+}
+
+/*******  button ends ******/
+
+#nav-list{
+	position: relative;
+	right: 5%;
+	vertical-align: middle;
+	margin: auto;
+}
+
+#nav-list li a{
+	padding: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#regis{
+	color:#fff;
+	margin:auto;
+}
+
+#nav-list li:nth-child(3){
+	   /**rgba(103, 71, 199, 0.98)#575FF2**/
+	 background: linear-gradient(to right, #8e2de2, #4286f4);
+}
+
+#nav-list li:nth-child(3):hover , #nav-list li:nth-child(3):focus{
+	background-image:linear-gradient(to right, #8e2de2, #4a00e0);
+	animation-delay: 1.5s;
+	transition: all 0.25s ease-in-out;
+}
+
+/********** header ends *********/
+#s1div1{
+	height: 663px;
+	position: relative;
+}
+.section1{
+	margin: auto;
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.section1>p{
+	font-size:25px;
+	text-transform:uppercase;
+	margin-bottom: 2px;
+	font-weight: 700;
+}
+
+.section1 article{
+	padding-top: 5px;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	color: #2ec4b6 ;
+}
+.section1 h1{
+	font-weight: bold;
+	margin-top: 0px;
+	font-size: 60px;
+}
+.section1 button{
+	border-radius: 0px;
+	border:0;
+	margin: 20px;
+	margin-left:0px;
+	width: 70%;
+	height: 40px;
+	background: linear-gradient(to right, #8e2de2, #4286f4);
+	color: #fff;
+	margin-top: 10px;
+	transition: all .75s ease-in-out;
+}
+
+.section1 button:hover, .section1 button:focus{
+	background-image:linear-gradient(to right, #8e2de2, #4a00e0);
+	animation-delay: 1.5s;
+}
+
+.section1 button >p{
+	font-weight: bold;
+	font-size: 23px;
+	margin: auto;
+}
+
+.section1 button:hover , .section1 button:focus{
+	background-color: #242C42;
+	transition: all ease-in .4s;
+}
+
+#s1img{
+	background:url('../images/vector-art.png') no-repeat;
+	background-position: center center;
+	background-size:contain;
+	height: 500px;
+	width: 100%;
+}
+
+/******* first scroll ends*********/
+#s2div1{
+	margin: auto;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 85%;
+}
+
+
+.section2{
+	background-image: linear-gradient(37deg,#00122b 0%,#005868 100%);
+	color: #fff;
+	border-radius: 30px;
+}
+.section2 h1{
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 70px;
+	padding: 20px;
+	text-align: center;
+}
+
+.section2 p{
+	padding: 30px;
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+}
+/********** scxroll 2 ends**********/
+.section3 h1{
+	font-weight: bold;
+	margin-top: 0px;
+	font-size: 60px;
+}
+#s3btn{
+	border-radius: 0px;
+	border:0;
+	background: linear-gradient(to right, #8e2de2, #4286f4);
+	color: #fff;
+	width: 60%;
+	margin:30px;
+	height: 40px; 
+}
+#s3btn p{
+	font-size: 23px;
+	padding: auto;
+	margin: auto;
+	font-weight: bold;
+}
+#s3btn:hover, #s3btn:focus{
+	background-image:linear-gradient(to right, #8e2de2, #4a00e0);
+	animation-delay: 1.5s;
+}
+
+
+#mimg{
+	margin-top:20px; 
+	margin-bottom: 20px;
+	background:url('../images/mentor.png') no-repeat;
+	background-position: center center;
+	background-size:contain;
+	height: 500px;
+	width: 100%;
+}
+#s3d1{
+	position: relative;
+	height: 500px;
+}
+.section3{
+	margin: auto;
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%,-50%);
+}
+
+.section3 h1{
+	font-weight: bold;
+	margin-top: 0px;
+	font-size: 60px;
+}
+/******** scroll 3 ends**********/
+#s4d1{
+	margin: auto;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 85%;
+}
+
+
+.section4{
+	background-image: linear-gradient(37deg,#00122b 0%,#005868 100%);
+	color: #fff;
+	border-radius: 30px;
+}
+.section4 h1{
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 70px;
+	padding: 20px;
+	text-align: center;
+}
+
+#s4p1{
+	margin: 40px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#s4btn{
+	border-radius: 0px;
+	border:0;
+	background: linear-gradient(to right, #8e2de2, #4286f4);
+	color: #fff;
+	width: 25%;
+	margin:30px;
+	height: 40px; 
+}
+#s4btn p{
+	font-size: 23px;
+	padding: auto;
+	margin: auto;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#s4btn:hover, #s3btn:focus{
+	background-image:linear-gradient(to right, #8e2de2, #4a00e0);
+	animation-delay: 1.5s;
+}
+/********* scroll 4 ends *******/
+
+#cimg{
+	margin-top:20px; 
+	margin-bottom: 20px;
+	background:url('../images/confused.jpg') no-repeat;
+	background-position: center center;
+	background-size:contain;
+	height: 500px;
+	width: 100%;
+}
+
+.section5 h1{
+	font-weight: bold;
+	margin-top: 0px;
+	font-size: 60px;
+}
+#s5btn{
+	border-radius: 0px;
+	border:0;
+	background: linear-gradient(to right, #8e2de2, #4286f4);
+	color: #fff;
+	width: 60%;
+	margin:30px;
+	height: 40px; 
+}
+#s5btn p{
+	font-size: 23px;
+	padding: auto;
+	margin: auto;
+	font-weight: bold;
+}
+#s5btn:hover, #s5btn:focus{
+	background-image:linear-gradient(to right, #8e2de2, #4a00e0);
+	animation-delay: 1.5s;
+}
+
+#s5d1{
+	position: relative;
+	height: 500px;
+}
+.section5{
+	margin: auto;
+	width: 70%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%,-50%);
+}
+
+.section5 h1{
+	font-weight: bold;
+	margin-top: 0px;
+	font-size: 60px;
+}
+/********* scroll 5 ends**********/
+#s6con{
+	background-image: linear-gradient(37deg,#00122b 0%,#005868 100%);
+}
+
+#s6con h3{
+	color: #fff;
+	font-weight: bold;
+}
+#s6con p{
+	color: #fff;
+}
+#s6con p a{
+	text-decoration: none;
+	color: #fff;
+}
+#s6con p a:hover , #s6con p a:focus{
+	color:lightblue;
+}
+
+footer{
+	background-image: linear-gradient(37deg,#00122b 0%,#005868 100%);
+	padding-bottom: 20px;
+}
+
+#footer p{
+	color: #fff;
+	height: 22.400px;
+	text-align: center;
+	margin-bottom: 0px;
+	padding:20px;
+}
